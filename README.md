@@ -28,8 +28,8 @@ Users should be able to:
 <!-- work on this when i have pushing all the required document to get the link -->
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/ronalking182/3-column-preview-card-component)
+- Live Site URL:(https://ronalking182.github.io/3-column-preview-card-component/)
 
 ## My process
 HTML
@@ -60,8 +60,7 @@ I want to continue focusing on my media quries so as to master how it works and 
 <!-- work on this after i have inseted this into my git  -->
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ronalking182](https://www.frontendmentor.io/profile/ronlking182)
+- Twitter - [@abudavidking](https://www.twitter.com/abudavidking)
 
 
