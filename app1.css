@@ -1,0 +1,240 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    background-color: hsl(0, 0%, 95%);
+   
+}
+
+.con{
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+   
+    grid-template-rows: 2fr 2fr 2fr;
+}
+.con1{
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 400px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.con2{
+    background-color:  hsl(184, 100%, 22%);
+    width: 300px;
+    height: 400px;
+}
+.con3{
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 400px;
+    border-radius: 0 0 10px 10px;
+}
+.attribution{
+    position: relative;
+   top: 100px;
+}
+
+
+
+.Sv1{
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    background-color: hsl(31, 77%, 52%);
+}
+.t1{
+    background-color: hsl(31, 77%, 52%);
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header1{
+position: absolute;
+left: 30px;
+top: 60px;
+font-size: 35px;
+background-color: hsl(31, 77%, 52%);
+}
+.text1{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    font-size: 19px;
+    background-color: hsl(31, 77%, 52%);
+}
+.btn1{
+    width: 140px;
+    height: 40px;
+    font-size:16px;
+    border-radius: 20px;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    background-color: #fff;
+    color: hsl(31, 77%, 52%);
+   border: none;
+}
+.btn1:hover{
+    color: #fff;
+    background-color:hsl(31, 77%, 52%);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.Sv2{
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.t2{
+
+    background-color:  hsl(184, 100%, 22%);
+    bottom: 22px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header2{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.text2{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    font-size: 19px;
+    background-color:  hsl(184, 100%, 22%);
+}
+.btn2{
+    width: 140px;
+    height: 40px;
+    font-size:16px;
+    border-radius: 20px;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    background-color: #fff;
+    color: hsl(184, 100%, 22%);
+   border: none;
+}
+.btn2:hover{
+    color: #fff;
+    background-color:hsl(184, 100%, 22%);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.Sv3{
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    background-color: hsl(179, 100%, 13%);
+}
+.t3{
+    background-color: hsl(179, 100%, 13%);
+    bottom: 42px;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header3{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+    background-color: hsl(179, 100%, 13%);
+}
+.text3{
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    font-size: 19px;
+    background-color: hsl(179, 100%, 13%);
+}
+.btn3{
+    width: 140px;
+    height: 40px;
+    font-size:16px;
+    border-radius: 20px;
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    background-color: #fff;
+    color: hsl(179, 100%, 13%);
+   border: none;
+}
+.btn3:hover{
+    color: #fff;
+    background-color:hsl(179, 100%, 13%);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.attribution{
+    
+    margin-right: 5px;
+    color: burlywood;
+}
+div a{
+    color: plum;
+    text-decoration: none;
+}
+img{
+    position: relative;
+    top: 6px;
+}
+@media screen and (min-width:1100px) {
+    .con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+   
+   
+    }
+    /* .t2{
+        height: 350px;
+    } */
+    .con1{        
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .con3{
+        border-radius: 0 10px 10px 0;
+    }
+    .Sv2{
+        top: 45px;
+    }
+   .header2{
+       top: 80px;
+   }
+   .text2{
+       top: 150px;
+   }
+   .btn2{
+       top: 315px;
+   }
+   .Sv3{
+    top: 60px;
+}
+   .header3{
+    margin-top: 40px;
+}
+   .text3{
+    top: 170px;
+}
+   .btn3{
+    top: 335px
+    ;
+}
+   .header3{
+    top: 80px;
+}
+    }
